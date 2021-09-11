@@ -44,7 +44,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Styling */
+/* Document Styling */
 body{
     background-color: #eceef1;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,7 +54,7 @@ body{
 header{
     display: flex;
     justify-content: flex-end;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 60px;
     width: 100%;
 }
@@ -82,8 +82,8 @@ header input{
 
 /* title styling */
 h1{
-    border: 1px solid red;
-    height: 75px;
+    /* border: 1px solid red; */
+    height: 54px;
     width: 100%;
     text-align: center;
 }
@@ -97,19 +97,131 @@ h1 p{
 /* nav link styling */
 nav{
     display: flex;
-    border: 1px solid aqua;
+    justify-content: center;
+    /* border: 1px solid aqua; */
     height: 42px;
     width: 100%;
 }
-
-section {
-    border: 1px solid yellow;
-    height: 644px;
-    width: 100%;
+nav a{
+    font-size: 20px;
+    font-weight: 50;
+    text-decoration: none;
+    color: #6b6c72;
+    margin-left: 10px;
+}
+nav a .mint{
+    height: 23px;
+    width: 23px;
+    color: #00a6a4;
+}
+nav a .quickbooks{
+    color: #2ca01c;
+}
+nav a .turbotax{
+    color: #d52b1e;
 }
 
+/* Sign Up form styling */
+section {
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    height: 639px;
+    width: 20%;
+    margin: auto;
+}
+section h2{
+    color: #393a3d;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+section p.subtitle{
+    color: #8d9096;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 50;
+}
+section a.subtitle{
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    color: #4e9ed4;
+    font-size: 14px;
+    margin-left: 155px;
+}
+section form ul li{
+    margin: 30px;
+}
+section form ul li label{
+    color: #393a3d;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+section form ul li label span{
+    color: #8d9096;
+}
+section form ul li input{
+    height: 28px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+section form ul li p{
+    text-align: start;
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    margin-top: 7px;
+}
+section form ul li #submit{
+    height: 50px;
+    border-radius: 5px;
+    background-color: #0077c5;
+    color: white;
+    font-size: 18px;
+}
+section p.terms{
+    color: #8d9096;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-style: italic;
+}
+section p.terms a{
+    color: #4e9ed4;
+    display: inline-block;
+    text-decoration: none;
+}
+section aside{
+    margin-top: 36px;
+    height: 50px;
+    width: 100%;
+    background-color: #eceef1;
+}
+section aside p{
+    text-align: center;
+    padding-top: 20px;
+    color: #8d9096;
+    font-size: 10px;
+}
+section aside a{
+    color: #4e9ed4;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* #8d9096 */
+
+
+/* Footer styling */
 footer{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 99px;
     width: 100%;
 }

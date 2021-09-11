@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2003fd92f9.js" crossorigin="anonymous"></script>
     <title>Intuit Accounts - Sign Up</title>
 </head>
 <body>
@@ -15,11 +16,47 @@
         </div>
         <input type="button" value="Sign In">
     </header>
+
     <h1>
-        <p>INTUIT</p>
+        <p>InTuIT</p>
     </h1>
-    <nav></nav>
-    <section class="signupForm"></section>
+
+    <nav>
+        <a href="#"><i class="fas fa-circle mint"></i> mint</a>
+        <a href="#"><i class="fas fa-circle quickbooks"></i> quickbooks</a>
+        <a href="#"><i class="fas fa-circle turbotax"></i> turbotax</a>
+    </nav>
+
+    <section class="signupForm">
+        <h2>Create an Intuit account</h2>
+        <p class="subtitle">One account for everything Intuit, including Mint.</p>
+        <a class="subtitle" href="#">Learn more</a>
+        <form action="#">
+            <ul>
+                <li>
+                    <label for="email">Email address</label>
+                    <input type="email" name="user_email" id="email">
+                </li>
+                <li>
+                    <label for="phone">Phone <span>(recommended)</span></label>
+                    <input type="number" name="user_phone" id="phone">
+                    <p>Standard call, messge, or data rates may apply.</p>
+                </li>
+                <li>
+                    <label for="password">Password</label>
+                    <input type="password" name="user_password" id="password">
+                </li>
+                <li>
+                    <input type="submit" name="submit" id="submit" value="Create Account">
+                </li>
+            </ul>
+        </form>
+        <p class="terms">By selecting Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement.</a></p>
+        <aside>
+            <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
+        </aside>
+    </section>
+
     <footer></footer>
 </body>
 </html>
