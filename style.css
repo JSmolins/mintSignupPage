@@ -216,12 +216,26 @@ section aside a{
     text-decoration: none;
 }
 
-/* #8d9096 */
-
-
 /* Footer styling */
 footer{
     /* border: 1px solid green; */
-    height: 99px;
+    height: 70px;
     width: 100%;
+}
+footer div{
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+footer a{
+    color: #505050;
+    margin-left: 7px;
+    text-decoration: none;
+}
+footer p{
+    color: #505050;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
 }
